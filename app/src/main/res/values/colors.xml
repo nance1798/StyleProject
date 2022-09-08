@@ -23,4 +23,18 @@
 
     <color name="secondaryTextColor">#000000</color>
 
+    <color name="secondPrimaryColor">#0d47a1</color>
+
+    <color name="secondPrimaryLightColor">#5472d3</color>
+
+    <color name="secondPrimaryDarkColor">#002171</color>
+
+    <color name="secondSecondaryColor">#fff59d</color>
+
+    <color name="secondSecondaryLightColor">#ffffcf</color>
+
+    <color name="secondSecondaryDarkColor">#cbc26d</color>
+
+
+
 </resources>

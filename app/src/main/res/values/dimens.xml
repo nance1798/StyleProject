@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="textViewWidth">200dp</dimen>
-    <dimen name="textViewHeight">75dp</dimen>
-
+    <dimen name="textViewWidth">320dp</dimen>
+    <dimen name="textViewHeight">50dp</dimen>
+    <dimen name="textViewFontSize">24sp</dimen>
+    <dimen name="editTextWidth">320dp</dimen>
+    <dimen name="editTextHeight">50dp</dimen>
+    <dimen name="editTextFontSize">20sp</dimen>
+    <dimen name="buttonWidth">150dp</dimen>
+    <dimen name="buttonHeight">75dp</dimen>
+    <dimen name="buttonFontSize">18sp</dimen>
 
 
 

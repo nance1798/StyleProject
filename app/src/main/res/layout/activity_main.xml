@@ -5,4 +5,64 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/secondaryColor"
-    tools:context=".MainActivity" />
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/textViewWidth"
+        android:layout_height="@dimen/textViewHeight"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="Click the button to win big!!!"
+        android:textColor="@color/secondPrimaryColor"
+        android:textSize="@dimen/textViewFontSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="@dimen/editTextHeight"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="400dp"
+        android:ems="10"
+        android:hint="Enter your favorite food"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/editTextFontSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="@dimen/editTextHeight"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="300dp"
+        android:ems="10"
+        android:hint="Enter your favorite number"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/editTextFontSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:layout_marginStart="125dp"
+        android:layout_marginBottom="150dp"
+        android:text="Click me"
+        android:textColor="@color/secondPrimaryColor"
+        android:textSize="@dimen/buttonFontSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="509dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
