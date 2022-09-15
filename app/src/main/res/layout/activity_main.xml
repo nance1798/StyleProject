@@ -12,11 +12,13 @@
         style="@style/CardView.Light"
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="@dimen/sideMargin"
         android:layout_marginTop="40dp"
         android:text="Click the button to win big!!!"
         android:textColor="@color/secondPrimaryColor"
         android:textSize="@dimen/textViewFontSize"
+        android:gravity="center"
+        android:padding="@dimen/topTextViewPadding"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,26 +27,28 @@
         style="@style/CardView.Light"
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="@dimen/editTextHeight"
-        android:layout_marginStart="40dp"
-        android:layout_marginBottom="400dp"
+        android:layout_marginStart="@dimen/sideMargin"
+        android:layout_marginBottom="50dp"
         android:ems="10"
+        android:gravity="center"
         android:hint="Enter your favorite food here"
         android:inputType="textPersonName"
         android:textSize="@dimen/editTextFontSize"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="@dimen/editTextHeight"
-        android:layout_marginStart="40dp"
-        android:layout_marginBottom="300dp"
+        android:layout_marginStart="@dimen/sideMargin"
+        android:layout_marginBottom="75dp"
         android:ems="10"
+        android:gravity="center"
         android:hint="Enter your favorite number here"
         android:inputType="numberDecimal"
         android:textSize="@dimen/editTextFontSize"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -52,22 +56,23 @@
         android:layout_width="@dimen/buttonWidth"
         android:layout_height="@dimen/buttonHeight"
         android:layout_marginStart="125dp"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="50dp"
         android:onClick="onButton"
         android:text="Click me"
         android:textColor="@color/secondPrimaryColor"
         android:textSize="@dimen/buttonFontSize"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/finalText"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/finalText"
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="@dimen/sideMargin"
         android:layout_marginBottom="50dp"
         android:textColor="@color/primaryDarkColor"
         android:textSize="18sp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

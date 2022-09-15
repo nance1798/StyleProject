@@ -9,6 +9,8 @@
     <dimen name="buttonWidth">150dp</dimen>
     <dimen name="buttonHeight">75dp</dimen>
     <dimen name="buttonFontSize">18sp</dimen>
+    <dimen name="topTextViewPadding">0dp</dimen>
+    <dimen name="sideMargin">40dp</dimen>
 
 
 
